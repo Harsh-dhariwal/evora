@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38989570682",
+    "project_id": "evora-df669",
+    "storage_bucket": "evora-df669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38989570682:android:95f1fa45a563bcf2e111c3",
+        "android_client_info": {
+          "package_name": "com.example.evora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38989570682-m06cdqvu9fs9ngpjh6kvl6rejpu065th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFYuk_X_aEwITedh5J246U6QkkGgOMO6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38989570682-m06cdqvu9fs9ngpjh6kvl6rejpu065th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
