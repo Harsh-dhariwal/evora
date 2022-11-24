@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23196105957031252" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/activity_anayltics.xml" value="0.17486604968339017" />
+        <entry key="app/src/main/res/layout/activity_car_rto.xml" value="0.293115234375" />
+        <entry key="app/src/main/res/layout/activity_dropdown.xml" value="0.27025641025641023" />
+        <entry key="app/src/main/res/layout/activity_existing_car_info.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_result.xml" value="0.23854166666666668" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_recommendcar.xml" value="0.2369379588340808" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.31486053466796876" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.16764361078546308" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_swithtoev.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_user_details.xml" value="0.24615384615384617" />
+        <entry key="app/src/main/res/layout/dialog_resource_spinner.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/layout/dropdown.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.2880859375" />
       </map>
     </option>
   </component>
@@ -16,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/res1"
         app:layout_constraintVertical_bias="0.049" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="#fff"
         android:textColorHint="#fff"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/res1"
         android:layout_width="258dp"
         android:layout_height="67dp"
         android:layout_marginTop="24dp"

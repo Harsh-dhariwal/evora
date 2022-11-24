@@ -16,7 +16,7 @@
         tools:context=".MainActivity">
 
 
-        <ImageView
+    <ImageView
             android:id="@+id/imageView3"
             android:layout_width="164dp"
             android:layout_height="93dp"
@@ -52,7 +52,8 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -60,10 +61,10 @@
             android:layout_height="224dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintHorizontal_bias="0.473"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.131"
+            app:layout_constraintVertical_bias="0.077"
             app:srcCompat="@drawable/car" />
 
         <TextView
@@ -129,7 +130,7 @@
             app:layout_constraintTop_toBottomOf="@+id/rg" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/parkingcheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="44dp"
@@ -151,10 +152,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            app:layout_constraintTop_toBottomOf="@+id/parkingcheck" />
 
         <RadioGroup
-            android:id="@+id/radioGroup2"
+            android:id="@+id/citychoice"
             android:layout_width="182dp"
             android:layout_height="260dp"
             android:layout_marginTop="12dp"
@@ -217,10 +218,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.33"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+            app:layout_constraintTop_toBottomOf="@+id/citychoice" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/citytravel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
@@ -229,10 +230,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.196"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            android:imeOptions="actionDone"/>
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/highwaytravel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -242,7 +244,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.196"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            android:imeOptions="actionDone"/>
 
         <TextView
             android:id="@+id/textView10"
@@ -253,7 +256,7 @@
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+            app:layout_constraintTop_toBottomOf="@+id/citytravel" />
 
         <TextView
             android:id="@+id/textView11"
@@ -265,10 +268,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.152"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2" />
+            app:layout_constraintTop_toBottomOf="@+id/highwaytravel" />
 
         <RadioGroup
-            android:id="@+id/radioGroup3"
+            android:id="@+id/fuelchoice"
             android:layout_width="183dp"
             android:layout_height="173dp"
             android:layout_marginTop="8dp"
@@ -310,13 +313,67 @@
             android:id="@+id/subbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:text="Submit"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintHorizontal_bias="0.482"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+            app:layout_constraintTop_toBottomOf="@+id/result" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fuelchoice" />
 
 
+        <ImageView
+            android:id="@+id/res1"
+            android:layout_width="470dp"
+            android:layout_height="287dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="104dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subbtn" />
+
+        <TextView
+            android:id="@+id/cityhighpref"
+            android:layout_width="189dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="52dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.247"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/res1" />
+
+        <ImageView
+            android:id="@+id/res2"
+            android:layout_width="470dp"
+            android:layout_height="287dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="68dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cityhighpref" />
+
+        <ImageView
+            android:id="@+id/res3"
+            android:layout_width="455dp"
+            android:layout_height="281dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="124dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/res2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
